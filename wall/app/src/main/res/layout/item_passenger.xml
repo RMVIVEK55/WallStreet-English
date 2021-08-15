@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/image_view_airlines_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        tools:background="@drawable/ic_launcher_background" />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_name"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp5"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_toStartOf="@+id/text_country"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_country"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/dp5"
+            android:layout_marginEnd="@dimen/dp10"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view_name_with_trips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_name"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            tools:text="Dodi Papagena, 2223 Trips" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_view_headquarters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_name_with_trips"
+
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+
+            android:textSize="14sp"
+            tools:text="Jom Phol Subdistrict, Chatuchak, Bangkok, Thailand" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_estab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_headquarters"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="@dimen/dp10"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp16"
+
+          />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/text_web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_headquarters"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/text_estab"
+            android:textAlignment="textEnd"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp16"
+            android:layout_marginEnd="@dimen/dp10"
+           />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.3"
+        android:background="#000000" />
+
+</androidx.cardview.widget.CardView>

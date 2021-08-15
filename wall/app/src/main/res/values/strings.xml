@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WallStreetEnglish</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="resonse_wait_msg">Please wait fetching data…</string>
+
+    <string name="unknown_host_exception">Please check your network connection!.</string>
+    <string name="parser_exception">Data parsing issue</string>
+    <string name="your_in_offline">You are in offline!.</string>
+    <string name="internal_server_exception">Internal server error</string>
+    <string name="not_found">Not found!</string>
+    <string name="un_caught_exception">Something went wrong!</string>
+    <string name="none">None</string>
+    <string name="last_sync_time">Last sync time: %s</string>
+    <string name="no_internet">No internet connection</string>
+</resources>
